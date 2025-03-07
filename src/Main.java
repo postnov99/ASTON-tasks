@@ -2,18 +2,18 @@ import tasks.*;
 
 public class Main {
     public static void main(String[] args) {
-        Goods();
-        ArrayOfGoods();
+        goods();
+        arrayOfGoods();
         saveAttractionsInfo();
     }
 
     // Задание №1
-    public static void Goods() {
+    public static void goods() {
         new Product("Iphone 16", "01.01.2025", "Apple", "USA", 900, true).printInfo();
     }
 
     //Задание №2
-    public static void ArrayOfGoods() {
+    public static void arrayOfGoods() {
         Product[] productsArray = new Product[5];
         productsArray[0] = new Product("Iphone 16", "01.01.2025", "Apple", "USA", 900, true);
         productsArray[1] = new Product("Iphone 15", "01.01.2024", "Apple", "USA", 800, true);
